@@ -11,6 +11,6 @@
     pixelImage.src =`https://p.veritone-ce.com/${pixelId}?ts=${currentTimeStamp}&url=${encodeURIComponent(pageUrl)}&ref=${encodeURIComponent(referrer)}`
     document.body.appendChild(pixelImage);
     console.log(document.getElementById("attribute-pixel-img").src)
-    console.log("attribute-pixel-tracker version 2")
+    console.log("attribute-pixel-tracker version 3")
   })()
 
